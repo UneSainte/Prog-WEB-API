@@ -3,14 +3,16 @@
     justify-content: space-between;
     align-items: center;
     padding: 1em;
-    background-color: gray;
+    background-color: rgba(52, 1, 54, 0.568);
 }
 
 .header img{
-    max-width: 80px ;
+    max-width: 100px ;
 }
 
 .header ul{
     display: flex;
     gap: 1em;
+    font-family:'Segoe UI';
+
 }

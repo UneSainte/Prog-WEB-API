@@ -19,9 +19,9 @@ li {
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: rgb(74, 7, 74);
 }
 
 a:hover {
-	color: red;
+	color: rgb(255, 255, 255);
 }
