@@ -1,4 +1,5 @@
-.main_section {
+/* REVIEW */
+.main_section_review {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -12,11 +13,13 @@
 
 }
 
-.main_section h1{
+.main_section_review h1{
     color: white;
+	font-size: 500%;
+	font-family: 'Tahoma';
 }
 
-.main_section p {
+.main_section_review p {
 	max-width: 400px;
 	padding: 1em;
 	background-color: rgb(255 255 255 / 29%);
@@ -25,11 +28,36 @@
 	border: 1px solid #1d002582;
 }
 
-.main_section button {
-	padding: 1em;
-	margin-top: 1em;
-	border: none;
-	background-color: rgba(83, 6, 75, 0.568);
-	color: white;
-	cursor: pointer;
+
+/* INDEX */
+.main_section_index {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 2em;
+	align-items: center;
+	background-position: center;
+	min-height: 50dvh;
+	background-size: cover;
+	gap: 1em;
+
+}
+/*
+.main_section_index h1{
+    color: #1d002582;
+	font-size: 500%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*/
+
+.main_section_index p {
+	max-width: 400px;
+	padding: 3em;
+	background-color: rgb(255 255 255 / 29%);
+	backdrop-filter: blur(3px);
+	border-radius: 3px;
+	border: 1px solid #1d002582;
+	margin-top: 4em;
+	font-size: large;
+	font-weight: 200;
 }

@@ -1,6 +1,7 @@
 @import "./css/header.css";
 @import "./css/main_section.css";
 @import "./css/second_section.css";
+@import "./css/ensblebtn1.css";
 
 * {
 	margin: 0;
@@ -8,8 +9,10 @@
 	box-sizing: border-box;
 }
 
-body{
+#body-index{
 	font-family: "Courier New", Courier, monospace;
+	background-image: url("assets/wallpaper.webp");
+	background-size: cover;
 }
 
 ul,
